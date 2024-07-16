@@ -1,0 +1,27 @@
+
+### RUTA DE ACCESO A LA TABLA personal1 DE LA BASE DE DATOS
+@api = http://localhost:4000/personal1
+
+
+
+### PIDIENDO TODOS LOS DATOS DE LA TABLA
+GET {{api}}
+
+### AGREGANDO DATOS A LA TABLA
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombre": "Pibe",
+    "cargo": "Cocinero",
+    "codigo": 2023123432,
+    "imagen": "https://res.cloudinary.com/dvbqkafbz/image/upload/v1682450076/images/1682450074586.webp"
+}
+
+### Eliminando por codigo
+DELETE {{api}}/codigo/
+
+
+### Eliminando por id
+DELETE {{api}}/11
+

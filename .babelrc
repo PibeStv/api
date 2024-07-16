@@ -1,0 +1,7 @@
+{
+    //con este modulo en vez de ejecutar en consola, node src/index.js ejecutaremos, babel=node
+    "presets": ["@babel/preset-env"]
+}
+
+
+
